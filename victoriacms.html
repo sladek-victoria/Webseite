@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Admin – Pension Victoria</title>
+  <link rel="icon" type="image/png" href="./assets/pension-victoria-logo-ofRX9QH1.png" />
+  <script type="module" crossorigin src="./assets/admin-C9RJXG3A.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/i18n-BBdSKVPm.js">
+  <link rel="modulepreload" crossorigin href="./assets/content-CPn79Hl4.js">
+  <link rel="stylesheet" crossorigin href="./assets/admin-HfVppSBs.css">
+</head>
+<body>
+
+  <!-- ░░ Login screen ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+  <div id="login-screen" role="main">
+    <div class="login-box">
+      <h1>Admin – Pension Victoria</h1>
+
+      <div id="not-configured-msg" class="not-configured-msg" hidden>
+        Admin-Passwort ist nicht konfiguriert.<br>
+        Bitte <code>.env</code>-Datei mit <code>VITE_ADMIN_HASH</code> einrichten.<br>
+        <small>Führen Sie <code>node scripts/set-password.js</code> aus.</small>
+      </div>
+
+      <form id="login-form" novalidate>
+        <div class="form-group">
+          <label for="input-username">Benutzername</label>
+          <input id="input-username" type="text" name="username" autocomplete="username" required />
+        </div>
+        <div class="form-group">
+          <label for="input-password">Passwort</label>
+          <input id="input-password" type="password" name="password" autocomplete="current-password" required />
+        </div>
+        <button type="submit" class="login-btn">Anmelden</button>
+        <p id="login-error" class="login-error" role="alert" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- ░░ Admin app ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+  <div id="admin-app" class="hidden">
+
+    <header class="admin-header">
+      <h1>Pension Victoria – Admin</h1>
+      <span id="admin-mode-badge" class="admin-mode-badge"></span>
+      <div class="admin-header-actions">
+        <a href="index.html" class="header-btn" target="_blank">🌐 Website</a>
+        <button id="export-btn" class="header-btn export-btn">⬇ content.json</button>
+        <button id="logout-btn" class="header-btn">Abmelden</button>
+      </div>
+    </header>
+
+    <div id="admin-toast" class="admin-toast" role="status" aria-live="polite"></div>
+
+    <div id="unsaved-notice" class="unsaved-notice hidden" role="status" aria-live="polite"></div>
+
+    <div class="admin-layout">
+      <!-- Sidebar -->
+      <aside class="admin-sidebar" aria-label="Admin-Navigation">
+        <button class="tab-btn active" data-tab="hero">🖼 Hero &amp; Begrüßung</button>
+        <button class="tab-btn" data-tab="rooms">📷 Galerien</button>
+        <button class="tab-btn" data-tab="prices">💶 Preise</button>
+        <button class="tab-btn" data-tab="contact">📍 Kontakt</button>
+      </aside>
+
+      <!-- Content – fully rendered by admin.js -->
+      <main class="admin-content">
+        <div id="panel-hero"    class="admin-panel active"></div>
+        <div id="panel-rooms"   class="admin-panel"></div>
+        <div id="panel-prices"  class="admin-panel"></div>
+        <div id="panel-contact" class="admin-panel"></div>
+      </main>
+    </div>
+  </div>
+
+</body>
+</html>
