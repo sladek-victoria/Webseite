@@ -1,0 +1,26 @@
+window.T = window.T || {};
+window.T.fr = {
+  flag: '🇫🇷',
+  'cover-title': 'Bienvenue!',
+  'cover-subtitle': '',
+  'topbar-title-main': 'Séjour Schleise',
+  'topbar-title-sub': 'au sous-sol',
+  'checkin-summary-title': 'Arrivée :',
+  'checkout-summary-title': 'Départ :',
+  'checkin-summary-time': 'à partir de 16:00',
+  'checkout-summary-time': 'jusqu’à 11:00',
+  'idx-title': 'Herzlich Willkommen!',
+  'idx-text': '', 'idx-addr': 'Laurötterstr. 8, 76479 Steinmauern',
+  'nav-parking': 'Parking', 'nav-parking-sub': 'Votre place de parking & accès',
+  'nav-checkin': 'Arrivée (accès)', 'nav-checkin-sub': 'Boîte à clés & chemin vers le logement',
+  'nav-wlan': 'Wi-Fi', 'nav-wlan-sub': 'Réseau & mot de passe',
+  'nav-infos': 'Règles de la maison', 'nav-infos-sub': 'Comportement & remarques',
+  'nav-abreise': 'Départ', 'nav-abreise-sub': 'Départ & clé',
+  'back-parking': 'Retour', 'back-checkin': 'Retour', 'back-wlan': 'Retour', 'back-infos': 'Retour', 'back-abreise': 'Retour',
+  'chap-parking-title': 'Parking', 'chap-checkin-title': 'Arrivée (accès)', 'chap-wlan-title': 'Wi-Fi', 'chap-infos-title': 'Règles de la maison', 'chap-abreise-title': 'Départ',
+  'ch-park-1': 'Parking', 'ch-park-2': 'Votre place de parking', 'ch-park-3': 'Veuillez vous garer sur la place marquée « Privat ».', 'ch-park-4': 'Place de parking avec marquage',
+  'ch-ci-1': 'Arrivée (accès)', 'ch-ci-2': 'Boîte à clés', 'ch-ci-3': 'La boîte à clés inférieure se trouve à droite de la boîte aux lettres. Veuillez prendre votre clé.', 'ch-ci-4': 'Boîte à clés sur le mur de la maison', 'ch-ci-5': 'Chemin vers le logement', 'ch-ci-6': '1. Saisissez le code dans la boîte à clés inférieure<br>2. Prenez la clé. Elle vous permettra d’ouvrir la porte d’entrée et la porte de l’appartement<br>3. L’appartement se trouve au sous-sol à gauche',
+  'ch-wl-1': 'Nom du Wi-Fi :', 'ch-wl-net': 'Logement', 'ch-wl-2': 'Mot de passe :', 'ch-wl-pw': '1B2727STU18G2???', 'ch-wl-4': 'Code QR :', 'ch-wl-5': 'Le code QR se trouve sur la table du salon.',
+  'ch-in-1': 'Règles de la maison', 'ch-in-2': 'Remarques', 'ch-in-r1': 'Heures calmes<br><small>22:00 – 07:00</small>', 'ch-in-r2': 'Pas de fêtes', 'ch-in-r3': 'Interdiction de fumer dans le bâtiment', 'ch-in-r4': 'Espace fumeur à l’extérieur<br><small>à côté du garage</small>', 'ch-in-h1': 'Considération envers les colocataires', 'ch-in-h2': 'Veuillez parler doucement, marcher doucement et fermer les portes doucement – surtout en cas d’arrivée tardive ou de départ anticipé.', 'ch-in-h3': 'Élimination des déchets', 'ch-in-h4': 'Les poubelles se trouvent à côté du garage – dans la même zone que l’espace fumeur.', 'ch-in-h5': 'Espace fumeur et poubelles à côté du garage',
+  'ch-ab-1': 'Nous avons été ravis de vous accueillir !', 'ch-ab-2': 'Nous espérons que vous avez passé un séjour agréable.', 'ch-ab-3': 'Départ', 'ch-ab-4': 'Départ avant <span class="pill">11:00</span>', 'ch-ab-5': 'Veuillez partir au plus tard à 11:00.', 'ch-ab-6': 'Déposez la clé dans la boîte à clés', 'ch-ab-7': 'Veuillez ouvrir la boîte avec le code et y remettre la clé.'
+};

@@ -1,0 +1,26 @@
+window.T = window.T || {};
+window.T.sl = {
+  flag: '🇸🇮',
+  'cover-title': 'Dobrodošli!',
+  'cover-subtitle': '',
+  'topbar-title-main': 'Sobe Schleise',
+  'topbar-title-sub': 'v kleti',
+  'checkin-summary-title': 'Pristop:',
+  'checkout-summary-title': 'Odhod:',
+  'checkin-summary-time': 'od 16:00',
+  'checkout-summary-time': 'do 11:00',
+  'idx-title': 'Herzlich Willkommen!',
+  'idx-text': '', 'idx-addr': 'Laurötterstr. 8, 76479 Steinmauern',
+  'nav-parking': 'Parkiranje', 'nav-parking-sub': 'Vaše parkirno mesto & dostop',
+  'nav-checkin': 'Pristop (dostop)', 'nav-checkin-sub': 'Skrinja za ključe & pot do bivanja',
+  'nav-wlan': 'Wi-Fi', 'nav-wlan-sub': 'Omrežje & geslo',
+  'nav-infos': 'Pravila doma', 'nav-infos-sub': 'Vedenje & opombe',
+  'nav-abreise': 'Odhod', 'nav-abreise-sub': 'Odhod & ključ',
+  'back-parking': 'Nazaj', 'back-checkin': 'Nazaj', 'back-wlan': 'Nazaj', 'back-infos': 'Nazaj', 'back-abreise': 'Nazaj',
+  'chap-parking-title': 'Parkiranje', 'chap-checkin-title': 'Pristop (dostop)', 'chap-wlan-title': 'Wi-Fi', 'chap-infos-title': 'Pravila doma', 'chap-abreise-title': 'Odhod',
+  'ch-park-1': 'Parkiranje', 'ch-park-2': 'Vaše parkirno mesto', 'ch-park-3': 'Prosimo parkirajte na mestu označenem „Privat“.', 'ch-park-4': 'Parkirno mesto z oznako',
+  'ch-ci-1': 'Pristop (dostop)', 'ch-ci-2': 'Skrinja za ključe', 'ch-ci-3': 'Spodnja skrinja za ključe je nameščena desno od poštnega nabiralnika. Prosimo, vzemite svoj ključ.', 'ch-ci-4': 'Skrinja za ključe na steni hiše', 'ch-ci-5': 'Pot do bivanja', 'ch-ci-6': '1. Vnesite kodo v spodnjo škatlo<br>2. Vzemite ključ. Omogoča vam odpiranje vhodnih vrat in vrat stanovanja<br>3. Stanovanje je v kleti na levi strani',
+  'ch-wl-1': 'Ime Wi-Fi-ja:', 'ch-wl-net': 'Bivanje', 'ch-wl-2': 'Geslo:', 'ch-wl-pw': '1B2727STU18G2???', 'ch-wl-4': 'QR koda:', 'ch-wl-5': 'QR koda je na mizi v dnevni sobi.',
+  'ch-in-1': 'Pravila doma', 'ch-in-2': 'Opombe', 'ch-in-r1': 'Nočni mir<br><small>22:00 – 07:00</small>', 'ch-in-r2': 'Brez zabav', 'ch-in-r3': 'V stavbi se ne sme kaditi', 'ch-in-r4': 'Prostor za kadilce zunaj<br><small>poleg garaže</small>', 'ch-in-h1': 'Spoštovanje sočlanov', 'ch-in-h2': 'Prosimo, da govorite tiho, hodite tiho in zapirajte vrata nežno – zlasti ob poznejšem prihodu ali zgodnjem odhodu.', 'ch-in-h3': 'Odlaganje odpadkov', 'ch-in-h4': 'Zabojniki za odpadke so poleg garaže – na istem območju kot prostor za kadilce.', 'ch-in-h5': 'Prostor za kadilce in zabojniki poleg garaže',
+  'ch-ab-1': 'Bilo nam je veselje, da ste bili pri nas!', 'ch-ab-2': 'Upamo, da ste imeli prijetno bivanje.', 'ch-ab-3': 'Odhod', 'ch-ab-4': 'Odhod do <span class="pill">11:00</span>', 'ch-ab-5': 'Prosimo, da odidete najkasneje do 11:00.', 'ch-ab-6': 'Ključ položite v škatlo za ključe', 'ch-ab-7': 'Prosimo, odprite škatlo s kodo in ključ pospravite nazaj.'
+};

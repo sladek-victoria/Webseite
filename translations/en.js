@@ -1,0 +1,26 @@
+window.T = window.T || {};
+window.T.en = {
+  flag: '🇬🇧',
+  'cover-title': 'Warmly<br>welcome!',
+  'cover-subtitle': '',
+  'topbar-title-main': 'Schleise accommodation',
+  'topbar-title-sub': 'in the basement',
+  'checkin-summary-title': 'Check-in:',
+  'checkout-summary-title': 'Check-out:',
+  'checkin-summary-time': 'from 4:00 PM',
+  'checkout-summary-time': 'until 11:00 AM',
+  'idx-title': 'Herzlich Willkommen!',
+  'idx-text': '', 'idx-addr': 'Laurötterstr. 8, 76479 Steinmauern',
+  'nav-parking': 'Parking', 'nav-parking-sub': 'Your parking space & access',
+  'nav-checkin': 'Check-In (Access)', 'nav-checkin-sub': 'Key box & route to your stay',
+  'nav-wlan': 'Wi-Fi', 'nav-wlan-sub': 'Network & Password',
+  'nav-infos': 'House Rules', 'nav-infos-sub': 'Behavior & Notes',
+  'nav-abreise': 'Check-out', 'nav-abreise-sub': 'Departure & Key',
+  'back-parking': 'Back', 'back-checkin': 'Back', 'back-wlan': 'Back', 'back-infos': 'Back', 'back-abreise': 'Back',
+  'chap-parking-title': 'Parking', 'chap-checkin-title': 'Check-In (Access)', 'chap-wlan-title': 'Wi-Fi', 'chap-infos-title': 'House Rules', 'chap-abreise-title': 'Check-out',
+  'ch-park-1': 'Parking', 'ch-park-2': 'Your parking space', 'ch-park-3': 'Please park in the space marked “Privat”.', 'ch-park-4': 'Parking space with marking',
+  'ch-ci-1': 'Check-In (Access)', 'ch-ci-2': 'Key box', 'ch-ci-3': 'The lower key box is located to the right of the mailbox. Please take out your key.', 'ch-ci-4': 'Key box on the house wall', 'ch-ci-5': 'Getting to your stay', 'ch-ci-6': '1. Enter the code in the lower key box<br>2. Take the key. This lets you unlock the front door and the apartment door<br>3. The apartment is in the basement on the left side',
+  'ch-wl-1': 'Wi-Fi name:', 'ch-wl-net': 'Unterkunft', 'ch-wl-2': 'Password:', 'ch-wl-pw': '1B2727STU18G2???', 'ch-wl-4': 'QR code:', 'ch-wl-5': 'The QR code is on the living room table.',
+  'ch-in-1': 'House rules', 'ch-in-2': 'Notes', 'ch-in-r1': 'Quiet hours<br><small>10 PM – 7 AM</small>', 'ch-in-r2': 'No parties', 'ch-in-r3': 'No smoking inside', 'ch-in-r4': 'Smoking area outside<br><small>next to the garage</small>', 'ch-in-h1': 'Be considerate of others', 'ch-in-h2': 'Please speak quietly, walk softly and close doors gently – especially when arriving late or leaving early.', 'ch-in-h3': 'Rubbish disposal', 'ch-in-h4': 'Bins are next to the garage – same area as the smoking spot.', 'ch-in-h5': 'Smoking area & rubbish bins next to the garage',
+  'ch-ab-1': 'It was a pleasure having you!', 'ch-ab-2': 'We hope you had a wonderful stay.', 'ch-ab-3': 'Departure', 'ch-ab-4': 'Check-out by <span class="pill">11:00 AM</span>', 'ch-ab-5': 'Please leave by 11:00 AM at the latest.', 'ch-ab-6': 'Place the key in the key box', 'ch-ab-7': 'Please open the box with the code and put the key back.'
+};

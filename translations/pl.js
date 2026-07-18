@@ -1,0 +1,26 @@
+window.T = window.T || {};
+window.T.pl = {
+  flag: '🇵🇱',
+  'cover-title': 'Witamy<br>serdecznie!',
+  'cover-subtitle': '',
+  'topbar-title-main': 'Zakwaterowanie Schleise',
+  'topbar-title-sub': 'w piwnicy',
+  'checkin-summary-title': 'Zameldowanie:',
+  'checkout-summary-title': 'Wymeldowanie:',
+  'checkin-summary-time': 'od 16:00',
+  'checkout-summary-time': 'do 11:00',
+  'idx-title': 'Herzlich Willkommen!',
+  'idx-text': '', 'idx-addr': 'Laurötterstr. 8, 76479 Steinmauern',
+  'nav-parking': 'Parkowanie', 'nav-parking-sub': 'Twoje miejsce parkingowe & dojazd',
+  'nav-checkin': 'Zameldowanie (dostęp)', 'nav-checkin-sub': 'Skrzynka na klucze & dojście do zakwaterowania',
+  'nav-wlan': 'Wi-Fi', 'nav-wlan-sub': 'Sieć i hasło',
+  'nav-infos': 'Zasady', 'nav-infos-sub': 'Zachowanie & Informacje',
+  'nav-abreise': 'Wymeldowanie', 'nav-abreise-sub': 'Wyjazd & klucz',
+  'back-parking': 'Powrót', 'back-checkin': 'Powrót', 'back-wlan': 'Powrót', 'back-infos': 'Powrót', 'back-abreise': 'Powrót',
+  'chap-parking-title': 'Parkowanie', 'chap-checkin-title': 'Zameldowanie (dostęp)', 'chap-wlan-title': 'Wi-Fi', 'chap-infos-title': 'Zasady domu', 'chap-abreise-title': 'Wymeldowanie',
+  'ch-park-1': 'Parkowanie', 'ch-park-2': 'Twoje miejsce parkingowe', 'ch-park-3': 'Proszę parkować na miejscu oznaczonym „Privat”.', 'ch-park-4': 'Miejsce parkingowe z oznaczeniem',
+  'ch-ci-1': 'Zameldowanie (dostęp)', 'ch-ci-2': 'Skrzynka na klucze', 'ch-ci-3': 'Dolna skrzynka na klucze znajduje się po prawej stronie skrzynki pocztowej. Proszę wyjąć klucz.', 'ch-ci-4': 'Skrzynka na klucze na ścianie domu', 'ch-ci-5': 'Dojazd do zakwaterowania', 'ch-ci-6': '1. Wpisz kod do dolnej skrzynki<br>2. Weź klucz. Umożliwia on otwarcie drzwi wejściowych i drzwi mieszkania<br>3. Mieszkanie znajduje się w piwnicy po lewej stronie',
+  'ch-wl-1': 'Nazwa Wi-Fi:', 'ch-wl-net': 'Unterkunft', 'ch-wl-2': 'Hasło:', 'ch-wl-pw': '1B2727STU18G2???', 'ch-wl-4': 'Kod QR:', 'ch-wl-5': 'Kod QR znajduje się na stole w salonie.',
+  'ch-in-1': 'Regulamin', 'ch-in-2': 'Wskazówki', 'ch-in-r1': 'Cisza nocna<br><small>22:00 – 07:00</small>', 'ch-in-r2': 'Zakaz imprez', 'ch-in-r3': 'Zakaz palenia w budynku', 'ch-in-r4': 'Strefa palenia na zewnątrz<br><small>przy garażu</small>', 'ch-in-h1': 'Szacunek dla innych', 'ch-in-h2': 'Prosimy mówić cicho, chodzić spokojnie i delikatnie zamykać drzwi – szczególnie przy późnym przyjeździe lub wczesnim wyjeździe.', 'ch-in-h3': 'Utylizacja odpadów', 'ch-in-h4': 'Pojemniki na śmieci znajdują się przy garażu – w tym samym miejscu co strefa palenia.', 'ch-in-h5': 'Strefa palenia i pojemniki przy garażu',
+  'ch-ab-1': 'Cieszymy się, że byłeś/aś u nas!', 'ch-ab-2': 'Mamy nadzieję, że pobyt był przyjemny.', 'ch-ab-3': 'Wymeldowanie', 'ch-ab-4': 'Wyjazd do <span class="pill">11:00</span>', 'ch-ab-5': 'Prosimy opuścić pokój najpóźniej do godziny 11:00.', 'ch-ab-6': 'Włóż klucz do skrzynki na klucze', 'ch-ab-7': 'Proszę otworzyć skrytkę kodem i włożyć klucz z powrotem.'
+};

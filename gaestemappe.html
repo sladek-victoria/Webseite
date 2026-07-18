@@ -71,7 +71,7 @@
   .lang-menu {
     position: absolute; right: 0; top: calc(100% + 6px);
     background: #fff; border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);
-    min-width: 120px; padding: 6px; display: none; z-index: 60;
+    min-width: 160px; padding: 6px; display: none; z-index: 60;
   }
   .lang-menu.show { display: block; }
   .lang-menu button {
@@ -218,15 +218,59 @@
   <p id="cover-subtitle" style="display:none;"></p>
   <div class="lang-list" style="margin-top: 32px;">
     <button class="lang-btn" onclick="startGuide('de')">
-      <span><span class="lname">Deutsch</span><span class="lsub">German &middot; Niemiecki</span></span>
+      <span style="display:flex;align-items:center;gap:10px;">
+        <span class="flag">🇩🇪</span>
+        <span class="lname">Deutsch</span>
+      </span>
       <span class="arr">&rsaquo;</span>
     </button>
     <button class="lang-btn" onclick="startGuide('en')">
-      <span><span class="lname">English</span><span class="lsub">Englisch &middot; Angielski</span></span>
+      <span style="display:flex;align-items:center;gap:10px;">
+        <span class="flag">🇬🇧</span>
+        <span class="lname">English</span>
+      </span>
       <span class="arr">&rsaquo;</span>
     </button>
     <button class="lang-btn" onclick="startGuide('pl')">
-      <span><span class="lname">Polski</span><span class="lsub">Polnisch &middot; Polish</span></span>
+      <span style="display:flex;align-items:center;gap:10px;">
+        <span class="flag">🇵🇱</span>
+        <span class="lname">Polski</span>
+      </span>
+      <span class="arr">&rsaquo;</span>
+    </button>
+    <button class="lang-btn" onclick="startGuide('cs')">
+      <span style="display:flex;align-items:center;gap:10px;">
+        <span class="flag">🇨🇿</span>
+        <span class="lname">Čeština</span>
+      </span>
+      <span class="arr">&rsaquo;</span>
+    </button>
+    <button class="lang-btn" onclick="startGuide('sk')">
+      <span style="display:flex;align-items:center;gap:10px;">
+        <span class="flag">🇸🇰</span>
+        <span class="lname">Slovenčina</span>
+      </span>
+      <span class="arr">&rsaquo;</span>
+    </button>
+    <button class="lang-btn" onclick="startGuide('hr')">
+      <span style="display:flex;align-items:center;gap:10px;">
+        <span class="flag">🇭🇷</span>
+        <span class="lname">Hrvatski</span>
+      </span>
+      <span class="arr">&rsaquo;</span>
+    </button>
+    <button class="lang-btn" onclick="startGuide('sl')">
+      <span style="display:flex;align-items:center;gap:10px;">
+        <span class="flag">🇸🇮</span>
+        <span class="lname">Slovenščina</span>
+      </span>
+      <span class="arr">&rsaquo;</span>
+    </button>
+    <button class="lang-btn" onclick="startGuide('fr')">
+      <span style="display:flex;align-items:center;gap:10px;">
+        <span class="flag">🇫🇷</span>
+        <span class="lname">Français</span>
+      </span>
       <span class="arr">&rsaquo;</span>
     </button>
   </div>
@@ -239,17 +283,42 @@
   <div class="lang-list">
     <button class="lang-btn" onclick="startGuide('de')">
       <span class="flag">&#127465;&#127466;</span>
-      <span><span class="lname">Deutsch</span><span class="lsub">German &middot; Niemiecki</span></span>
+      <span><span class="lname">Deutsch</span></span>
       <span class="arr">&rsaquo;</span>
     </button>
     <button class="lang-btn" onclick="startGuide('en')">
       <span class="flag">&#127468;&#127463;</span>
-      <span><span class="lname">English</span><span class="lsub">Englisch &middot; Angielski</span></span>
+      <span><span class="lname">English</span></span>
       <span class="arr">&rsaquo;</span>
     </button>
     <button class="lang-btn" onclick="startGuide('pl')">
       <span class="flag">&#127477;&#127473;</span>
-      <span><span class="lname">Polski</span><span class="lsub">Polnisch &middot; Polish</span></span>
+      <span><span class="lname">Polski</span></span>
+      <span class="arr">&rsaquo;</span>
+    </button>
+    <button class="lang-btn" onclick="startGuide('cs')">
+      <span class="flag">&#127464;&#127487;</span>
+      <span><span class="lname">Čeština</span></span>
+      <span class="arr">&rsaquo;</span>
+    </button>
+    <button class="lang-btn" onclick="startGuide('sk')">
+      <span class="flag">&#127480;&#127472;</span>
+      <span><span class="lname">Slovenčina</span></span>
+      <span class="arr">&rsaquo;</span>
+    </button>
+    <button class="lang-btn" onclick="startGuide('hr')">
+      <span class="flag">&#127469;&#127479;</span>
+      <span><span class="lname">Hrvatski</span></span>
+      <span class="arr">&rsaquo;</span>
+    </button>
+    <button class="lang-btn" onclick="startGuide('sl')">
+      <span class="flag">&#127480;&#127470;</span>
+      <span><span class="lname">Slovenščina</span></span>
+      <span class="arr">&rsaquo;</span>
+    </button>
+    <button class="lang-btn" onclick="startGuide('fr')">
+      <span class="flag">&#127467;&#127479;</span>
+      <span><span class="lname">Français</span></span>
       <span class="arr">&rsaquo;</span>
     </button>
   </div>
@@ -269,15 +338,24 @@
         <button onclick="startGuide('de')">🇩🇪 Deutsch</button>
         <button onclick="startGuide('en')">🇬🇧 English</button>
         <button onclick="startGuide('pl')">🇵🇱 Polski</button>
+        <button onclick="startGuide('cs')">🇨🇿 Čeština</button>
+        <button onclick="startGuide('sk')">🇸🇰 Slovenčina</button>
+        <button onclick="startGuide('hr')">🇭🇷 Hrvatski</button>
+        <button onclick="startGuide('sl')">🇸🇮 Slovenščina</button>
+        <button onclick="startGuide('fr')">🇫🇷 Français</button>
       </div>
     </div>
   </div>
 
   <!-- INDEX -->
   <div id="view-index" class="index-wrap">
-    <div class="idx-welcome">
-      <h2 id="idx-title">Willkommen!</h2>
-      <p id="idx-text">Sch&#246;n, dass Sie da sind. W&#228;hlen Sie ein Kapitel:</p>
+    <div class="idx-welcome" style="display:flex;flex-direction:column;align-items:center;text-align:center;">
+      <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:6px;">
+        <span style="font-size:1.3rem;">🏡</span>
+        <h2 id="idx-title" style="margin:0;">Willkommen!</h2>
+      </div>
+      <p id="idx-text" style="margin:0;">Sch&#246;n, dass Sie da sind. W&#228;hlen Sie ein Kapitel:</p>
+      <p id="idx-addr" style="margin-top:6px;font-size:0.85rem;color:#888;">Laur&#246;tterstr.&nbsp;8, 76479 Steinmauern</p>
     </div>
     <div class="card" style="background: #eaf5ef; border-left: 5px solid #2a5c44; margin-bottom: 20px;">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
@@ -392,12 +470,12 @@
   <div id="view-abreise" class="chapter-wrap" style="display:none">
     <button class="chap-back" onclick="goToMainPage()">&#8592; <span id="back-abreise">Zur&#252;ck</span></button>
     <div class="chap-header"><span class="icon">&#129523;</span><h2 id="chap-abreise-title">Abreise</h2></div>
-    <div class="farewell"><div class="em">&#128075;</div><h3 id="ch-ab-1">Es war sch&#246;n, Sie bei uns zu haben!</h3><p id="ch-ab-2">Wir hoffen, Sie hatten eine angenehme Zeit.</p></div>
     <div class="card">
       <h3 id="ch-ab-3">Check-out</h3>
       <div class="row"><span class="em">&#128346;</span><div><strong id="ch-ab-4">Abreise bis <span class="pill">11:00 Uhr</span></strong><span class="note" id="ch-ab-5">Bitte bis sp&#228;testens 11:00 Uhr abreisen.</span></div></div>
-      <div class="row"><span class="em">&#128273;</span><div><strong id="ch-ab-6">Schl&#252;ssel zur&#252;cklegen</strong><span class="note" id="ch-ab-7">Schl&#252;ssel bitte wieder in die Schl&#252;sselbox (rechts neben dem Briefkasten) legen und schlie&#223;en.</span></div></div>
+      <div class="row"><span class="em">&#128273;</span><div><strong id="ch-ab-6">Schl&#252;ssel in die Schl&#252;sselbox legen</strong><span class="note" id="ch-ab-7">Bitte &#246;ffnen Sie die Box mit dem Code und legen Sie den Schl&#252;ssel zur&#252;ck.</span></div></div>
     </div>
+    <div class="farewell"><div class="em">&#128075;</div><h3 id="ch-ab-1">Es war sch&#246;n, Sie bei uns zu haben!</h3><p id="ch-ab-2">Wir hoffen, Sie hatten eine angenehme Zeit.</p></div>
   </div>
 
   <!-- FOOTER -->
@@ -407,86 +485,18 @@
 
 </div><!-- /p-main -->
 
+<script src="translations/de.js"></script>
+<script src="translations/en.js"></script>
+<script src="translations/pl.js"></script>
+<script src="translations/cs.js"></script>
+<script src="translations/sk.js"></script>
+<script src="translations/hr.js"></script>
+<script src="translations/sl.js"></script>
+<script src="translations/fr.js"></script>
 <script>
 var lang = 'de';
-
-var T = {
-  de: {
-    flag: '🇩🇪',
-    'cover-title': 'Herzlich Willkommen',
-    'cover-subtitle': '',
-    'topbar-title-main': 'Schleise Unterkunft',
-    'topbar-title-sub': 'im Untergeschoss',
-    'checkin-summary-title': 'Check-in:',
-    'checkout-summary-title': 'Check-out:',
-    'checkin-summary-time': 'ab 16:00 Uhr',
-    'checkout-summary-time': 'bis 11:00 Uhr',
-    'idx-title': 'Herzlich Willkommen!',
-    'idx-text': '',
-    'nav-parking': 'Parken', 'nav-parking-sub': 'Ihr Parkplatz & Anfahrt',
-    'nav-checkin': 'Check-In (Zugang)', 'nav-checkin-sub': 'Schlüsselbox & Weg zur Unterkunft',
-    'nav-wlan': 'WLAN', 'nav-wlan-sub': 'Netzwerk & Passwort',
-    'nav-infos': 'Hausregeln', 'nav-infos-sub': 'Verhalten & Hinweise',
-    'nav-abreise': 'Abreise', 'nav-abreise-sub': 'Check-out & Schlüssel',
-    'back-parking': 'Zurück', 'back-checkin': 'Zurück', 'back-wlan': 'Zurück', 'back-infos': 'Zurück', 'back-abreise': 'Zurück',
-    'chap-parking-title': 'Parken', 'chap-checkin-title': 'Check-In (Zugang)', 'chap-wlan-title': 'WLAN', 'chap-infos-title': 'Infos & Hausregeln', 'chap-abreise-title': 'Abreise',
-    'ch-park-1': 'Parken', 'ch-park-2': 'Ihr Parkplatz', 'ch-park-3': 'Bitte auf dem Parkplatz mit dem „Privat“-Schild parken.', 'ch-park-4': 'Parkplatz mit Kennzeichnung',
-    'ch-ci-1': 'Check-In (Zugang)', 'ch-ci-2': 'Schlüsselbox', 'ch-ci-3': 'Die Schlüsselbox befindet sich außen an der Hauswand. Bitte geben Sie den Code ein und nehmen Sie den Schlüssel für die Haustür heraus.', 'ch-ci-4': 'Schlüsselbox an der Hauswand', 'ch-ci-5': 'Weg zur Unterkunft', 'ch-ci-6': '1. Code in die untere Schlüsselbox eingeben<br>2. Schlüssel entnehmen. Damit können Sie die Haustür und die Wohnungstür aufschließen<br>3. Die Wohnung befindet sich im Untergeschoss auf der linken Seite',
-    'ch-wl-1': 'WLAN-Name:', 'ch-wl-net': 'Unterkunft', 'ch-wl-2': 'Passwort:', 'ch-wl-pw': '1B2727STU18G2???', 'ch-wl-4': 'QR-Code:', 'ch-wl-5': 'QR Code befindet sich auf dem Wohnzimmertisch.',
-    'ch-in-1': 'Hausregeln', 'ch-in-2': 'Hinweise', 'ch-in-r1': 'Nachtruhe<br><small>22:00 – 07:00 Uhr</small>', 'ch-in-r2': 'Keine Partys', 'ch-in-r3': 'Rauchverbot im Gebäude', 'ch-in-r4': 'Raucherbereich draußen<br><small>neben der Garage</small>', 'ch-in-h1': 'Rücksicht auf Mitbewohner', 'ch-in-h2': 'Bitte leise sprechen, gehen und Türen sanft schließen – besonders bei später Anreise oder früher Abreise.', 'ch-in-h3': 'Müllentsorgung', 'ch-in-h4': 'Mülltonnen befinden sich neben der Garage – gleicher Bereich wie der Raucherplatz.', 'ch-in-h5': 'Raucherbereich & Müllentsorgung neben der Garage',
-    'ch-ab-1': 'Es war schön, Sie bei uns zu haben!', 'ch-ab-2': 'Wir hoffen, Sie hatten eine angenehme Zeit.', 'ch-ab-3': 'Check-out', 'ch-ab-4': 'Abreise bis <span class="pill">11:00 Uhr</span>', 'ch-ab-5': 'Bitte bis spätestens 11:00 Uhr abreisen.', 'ch-ab-6': 'Schlüssel zurücklegen', 'ch-ab-7': 'Schlüssel bitte wieder in die Schlüsselbox (rechts neben dem Briefkasten) legen und schließen.'
-  },
-  en: {
-    flag: '🇬🇧',
-    'cover-title': 'Warmly<br>welcome!',
-    'cover-subtitle': '',
-    'topbar-title-main': 'Schleise accommodation',
-    'topbar-title-sub': 'in the basement',
-    'checkin-summary-title': 'Check-in:',
-    'checkout-summary-title': 'Check-out:',
-    'checkin-summary-time': 'from 4:00 PM',
-    'checkout-summary-time': 'until 11:00 AM',
-    'idx-title': 'Herzlich Willkommen!',
-    'idx-text': '',
-    'nav-parking': 'Parking', 'nav-parking-sub': 'Your parking space & access',
-    'nav-checkin': 'Check-In (Access)', 'nav-checkin-sub': 'Key box & route to your stay',
-    'nav-wlan': 'Wi-Fi', 'nav-wlan-sub': 'Network & Password',
-    'nav-infos': 'House Rules', 'nav-infos-sub': 'Behavior & Notes',
-    'nav-abreise': 'Check-out', 'nav-abreise-sub': 'Departure & Key',
-    'back-parking': 'Back', 'back-checkin': 'Back', 'back-wlan': 'Back', 'back-infos': 'Back', 'back-abreise': 'Back',
-    'chap-parking-title': 'Parking', 'chap-checkin-title': 'Check-In (Access)', 'chap-wlan-title': 'Wi-Fi', 'chap-infos-title': 'House Rules', 'chap-abreise-title': 'Check-out',
-    'ch-park-1': 'Parking', 'ch-park-2': 'Your parking space', 'ch-park-3': 'Please park in the space marked “Privat”.', 'ch-park-4': 'Parking space with marking',
-    'ch-ci-1': 'Check-In (Access)', 'ch-ci-2': 'Key box', 'ch-ci-3': 'The key box is located outside on the house wall. Please enter the code and take the key to the front door.', 'ch-ci-4': 'Key box on the house wall', 'ch-ci-5': 'Getting to your stay', 'ch-ci-6': '1. Enter the code in the lower key box<br>2. Take the key. This lets you unlock the front door and the apartment door<br>3. The apartment is in the basement on the left side',
-    'ch-wl-1': 'Wi-Fi name:', 'ch-wl-net': 'Unterkunft', 'ch-wl-2': 'Password:', 'ch-wl-pw': '1B2727STU18G2???', 'ch-wl-4': 'QR code:', 'ch-wl-5': 'The QR code is on the living room table.',
-    'ch-in-1': 'House rules', 'ch-in-2': 'Notes', 'ch-in-r1': 'Quiet hours<br><small>10 PM – 7 AM</small>', 'ch-in-r2': 'No parties', 'ch-in-r3': 'No smoking inside', 'ch-in-r4': 'Smoking area outside<br><small>next to the garage</small>', 'ch-in-h1': 'Be considerate of others', 'ch-in-h2': 'Please speak quietly, walk softly and close doors gently – especially when arriving late or leaving early.', 'ch-in-h3': 'Rubbish disposal', 'ch-in-h4': 'Bins are next to the garage – same area as the smoking spot.', 'ch-in-h5': 'Smoking area & rubbish bins next to the garage',
-    'ch-ab-1': 'It was a pleasure having you!', 'ch-ab-2': 'We hope you had a wonderful stay.', 'ch-ab-3': 'Departure', 'ch-ab-4': 'Check-out by <span class="pill">11:00 AM</span>', 'ch-ab-5': 'Please leave by 11:00 AM at the latest.', 'ch-ab-6': 'Return your key', 'ch-ab-7': 'Please place the key back in the key box (right of the mailbox) and close it.'
-  },
-  pl: {
-    flag: '🇵🇱',
-    'cover-title': 'Witamy<br>serdecznie!',
-    'cover-subtitle': '',
-    'topbar-title-main': 'Zakwaterowanie Schleise',
-    'topbar-title-sub': 'w piwnicy',
-    'checkin-summary-title': 'Zameldowanie:',
-    'checkout-summary-title': 'Wymeldowanie:',
-    'checkin-summary-time': 'od 16:00',
-    'checkout-summary-time': 'do 11:00',
-    'idx-title': 'Herzlich Willkommen!',
-    'idx-text': '',
-    'nav-parking': 'Parkowanie', 'nav-parking-sub': 'Twoje miejsce parkingowe & dojazd',
-    'nav-checkin': 'Zameldowanie (dostęp)', 'nav-checkin-sub': 'Skrzynka na klucze & dojście do zakwaterowania',
-    'nav-wlan': 'Wi-Fi', 'nav-wlan-sub': 'Sieć i hasło',
-    'nav-infos': 'Zasady', 'nav-infos-sub': 'Zachowanie & Informacje',
-    'nav-abreise': 'Wymeldowanie', 'nav-abreise-sub': 'Wyjazd & klucz',
-    'back-parking': 'Powrót', 'back-checkin': 'Powrót', 'back-wlan': 'Powrót', 'back-infos': 'Powrót', 'back-abreise': 'Powrót',
-    'chap-parking-title': 'Parkowanie', 'chap-checkin-title': 'Zameldowanie (dostęp)', 'chap-wlan-title': 'Wi-Fi', 'chap-infos-title': 'Zasady domu', 'chap-abreise-title': 'Wymeldowanie',
-    'ch-park-1': 'Parkowanie', 'ch-park-2': 'Twoje miejsce parkingowe', 'ch-park-3': 'Proszę parkować na miejscu oznaczonym „Privat”.', 'ch-park-4': 'Miejsce parkingowe z oznaczeniem',
-    'ch-ci-1': 'Zameldowanie (dostęp)', 'ch-ci-2': 'Skrzynka na klucze', 'ch-ci-3': 'Skrzynka na klucze znajduje się na zewnątrz ściany domu. Proszę wpisać kod i wyjąć klucz do drzwi wejściowych.', 'ch-ci-4': 'Skrzynka na klucze na ścianie domu', 'ch-ci-5': 'Dojazd do zakwaterowania', 'ch-ci-6': '1. Wpisz kod do dolnej skrzynki<br>2. Weź klucz. Umożliwia on otwarcie drzwi wejściowych i drzwi mieszkania<br>3. Mieszkanie znajduje się w piwnicy po lewej stronie',
-    'ch-wl-1': 'Nazwa Wi-Fi:', 'ch-wl-net': 'Unterkunft', 'ch-wl-2': 'Hasło:', 'ch-wl-pw': '1B2727STU18G2???', 'ch-wl-4': 'Kod QR:', 'ch-wl-5': 'Kod QR znajduje się na stole w salonie.',
-    'ch-in-1': 'Regulamin', 'ch-in-2': 'Wskazówki', 'ch-in-r1': 'Cisza nocna<br><small>22:00 – 07:00</small>', 'ch-in-r2': 'Zakaz imprez', 'ch-in-r3': 'Zakaz palenia w budynku', 'ch-in-r4': 'Strefa palenia na zewnątrz<br><small>przy garażu</small>', 'ch-in-h1': 'Szacunek dla innych', 'ch-in-h2': 'Prosimy mówić cicho, chodzić spokojnie i delikatnie zamykać drzwi – szczególnie przy późnym przyjeździe lub wczesnym wyjeździe.', 'ch-in-h3': 'Utylizacja odpadów', 'ch-in-h4': 'Pojemniki na śmieci znajdują się przy garażu – w tym samym miejscu co strefa palenia.', 'ch-in-h5': 'Strefa palenia i pojemniki przy garażu',
-    'ch-ab-1': 'Cieszymy się, że byłeś/aś u nas!', 'ch-ab-2': 'Mamy nadzieję, że pobyt był przyjemny.', 'ch-ab-3': 'Wymeldowanie', 'ch-ab-4': 'Wyjazd do <span class="pill">11:00</span>', 'ch-ab-5': 'Prosimy opuścić pokój najpóźniej do godziny 11:00.', 'ch-ab-6': 'Zwrot klucza', 'ch-ab-7': 'Proszę odłożyć klucz do skrzynki (po prawej stronie skrzynki pocztowej) i zamknąć ją.'
-  }
-};
+var T = window.T || {};
+var availableLangs = ['de', 'en', 'pl', 'cs', 'sk', 'hr', 'sl', 'fr'];
 
 function goPage(id) {
   document.querySelectorAll('.page').forEach(function(p) { p.classList.remove('show'); });

@@ -1,0 +1,26 @@
+window.T = window.T || {};
+window.T.cs = {
+  flag: '🇨🇿',
+  'cover-title': 'Vítejte!',
+  'cover-subtitle': '',
+  'topbar-title-main': 'Ubytování Schleise',
+  'topbar-title-sub': 'v suterénu',
+  'checkin-summary-title': 'Příjezd:',
+  'checkout-summary-title': 'Odjezd:',
+  'checkin-summary-time': 'od 16:00',
+  'checkout-summary-time': 'do 11:00',
+  'idx-title': 'Herzlich Willkommen!',
+  'idx-text': '', 'idx-addr': 'Laurötterstr. 8, 76479 Steinmauern',
+  'nav-parking': 'Parkování', 'nav-parking-sub': 'Vaše parkovací místo & přístup',
+  'nav-checkin': 'Příjezd (přístup)', 'nav-checkin-sub': 'Schránka na klíče & cesta k ubytování',
+  'nav-wlan': 'Wi-Fi', 'nav-wlan-sub': 'Síť & heslo',
+  'nav-infos': 'Pravidla domu', 'nav-infos-sub': 'Chování & poznámky',
+  'nav-abreise': 'Odjezd', 'nav-abreise-sub': 'Odchod & klíč',
+  'back-parking': 'Zpět', 'back-checkin': 'Zpět', 'back-wlan': 'Zpět', 'back-infos': 'Zpět', 'back-abreise': 'Zpět',
+  'chap-parking-title': 'Parkování', 'chap-checkin-title': 'Příjezd (přístup)', 'chap-wlan-title': 'Wi-Fi', 'chap-infos-title': 'Pravidla domu', 'chap-abreise-title': 'Odjezd',
+  'ch-park-1': 'Parkování', 'ch-park-2': 'Vaše parkovací místo', 'ch-park-3': 'Prosíme parkujte na místě označeném „Privat“.', 'ch-park-4': 'Parkovací místo s označením',
+  'ch-ci-1': 'Příjezd (přístup)', 'ch-ci-2': 'Schránka na klíče', 'ch-ci-3': 'Spodní schránka na klíče se nachází vpravo od poštovní schránky. Vezměte si prosím klíč.', 'ch-ci-4': 'Schránka na klíče na zdi domu', 'ch-ci-5': 'Cesta k ubytování', 'ch-ci-6': '1. Zadejte kód do spodní schránky<br>2. Vezměte klíč. Pomůže vám otevřít vstupní dveře a dveře bytu<br>3. Byt je v suterénu vlevo',
+  'ch-wl-1': 'Název Wi-Fi:', 'ch-wl-net': 'Ubytování', 'ch-wl-2': 'Heslo:', 'ch-wl-pw': '1B2727STU18G2???', 'ch-wl-4': 'QR kód:', 'ch-wl-5': 'QR kód je na stole v obývacím pokoji.',
+  'ch-in-1': 'Pravidla domu', 'ch-in-2': 'Poznámky', 'ch-in-r1': 'Noční klid<br><small>22:00 – 07:00</small>', 'ch-in-r2': 'Žádné oslavy', 'ch-in-r3': 'V budově se nesmí kouřit', 'ch-in-r4': 'Místo pro kuřáky venku<br><small>vedle garáže</small>', 'ch-in-h1': 'Ohled na spolubydlící', 'ch-in-h2': 'Prosíme mluvte potichu, pohybujte se tiše a zavírejte dveře opatrně – zejména při pozdním příjezdu nebo brzkém odjezdu.', 'ch-in-h3': 'Likvidace odpadu', 'ch-in-h4': 'Koše jsou vedle garáže – ve stejné oblasti jako místo pro kuřáky.', 'ch-in-h5': 'Místo pro kuřáky a koše vedle garáže',
+  'ch-ab-1': 'Bylo nám potěšením vás u nás hostit!', 'ch-ab-2': 'Doufáme, že jste měli příjemný pobyt.', 'ch-ab-3': 'Odjezd', 'ch-ab-4': 'Odjezd do <span class="pill">11:00</span>', 'ch-ab-5': 'Prosíme odjeďte nejpozději do 11:00.', 'ch-ab-6': 'Vložte klíč do schránky na klíče', 'ch-ab-7': 'Otevřete prosím schránku kódem a vložte klíč zpět.'
+};
