@@ -82,10 +82,10 @@
 
   /* Verzeichnis */
   .index-wrap { max-width: 640px; margin: 0 auto; padding: 24px 16px 140px; }
-  .index-grid { display: grid; gap: 12px; }
+  .index-grid { display: grid; gap: 7px; }
   .idx-card {
     background: #fff; border-radius: 10px; border-left: 5px solid #2a5c44;
-    padding: 18px 20px; cursor: pointer; display: flex; align-items: center; gap: 14px;
+    padding: 12px 16px; cursor: pointer; display: flex; align-items: center; gap: 12px;
     box-shadow: 0 1px 6px rgba(0,0,0,0.06); transition: box-shadow 0.15s, transform 0.12s;
   }
   .idx-card:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.1); transform: translateX(3px); }
@@ -357,36 +357,36 @@
       <p id="idx-text" style="margin:0;">Sch&#246;n, dass Sie da sind. W&#228;hlen Sie ein Kapitel:</p>
       <p id="idx-addr" style="margin-top:6px;font-size:0.85rem;color:#888;">Laur&#246;tterstr.&nbsp;8, 76479 Steinmauern</p>
     </div>
-    <div class="card" style="background: #eaf5ef; border-left: 5px solid #2a5c44; margin-bottom: 20px;">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-        <div><span class="em" style="font-size: 1.8rem;">&#128273;</span><div><strong id="checkin-summary-title">Check-in:</strong><span id="checkin-summary-time" class="note" style="display: block; margin-top: 2px;">ab 16:00 Uhr</span></div></div>
-        <div><span class="em" style="font-size: 1.8rem;">&#128346;</span><div><strong id="checkout-summary-title">Check-out:</strong><span id="checkout-summary-time" class="note" style="display: block; margin-top: 2px;">bis 11:00 Uhr</span></div></div>
+    <div class="card" style="background: #eaf5ef; border-left: 5px solid #2a5c44; margin-bottom: 20px; padding: 12px 16px;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+        <div style="display:flex;align-items:center;gap:8px;"><span class="em" style="font-size: 1.2rem;">&#128273;</span><div><strong id="checkin-summary-title" style="font-size:0.9rem;">Check-in:</strong><span id="checkin-summary-time" class="note" style="display: block; margin-top: 1px; font-size:0.85rem;">ab 16:00 Uhr</span></div></div>
+        <div style="display:flex;align-items:center;gap:8px;"><span class="em" style="font-size: 1.2rem;">&#128346;</span><div><strong id="checkout-summary-title" style="font-size:0.9rem;">Check-out:</strong><span id="checkout-summary-time" class="note" style="display: block; margin-top: 1px; font-size:0.85rem;">bis 11:00 Uhr</span></div></div>
       </div>
     </div>
     <div class="index-grid">
       <div class="idx-card" onclick="showChapter('parking')">
         <span class="icon">&#128663;</span>
-        <div><div class="label" id="nav-parking">Parken</div><div class="desc" id="nav-parking-sub">Ihr Parkplatz &amp; Anfahrt</div></div>
+        <div><div class="label" id="nav-parking">Parken</div></div>
         <span class="arr">&rsaquo;</span>
       </div>
       <div class="idx-card" onclick="showChapter('checkin')">
         <span class="icon">&#128273;</span>
-        <div><div class="label" id="nav-checkin">Check-In (Zugang)</div><div class="desc" id="nav-checkin-sub">Schl&uuml;sselbox &amp; Weg zur Unterkunft</div></div>
+        <div><div class="label" id="nav-checkin">Check-In (Zugang)</div></div>
         <span class="arr">&rsaquo;</span>
       </div>
       <div class="idx-card" onclick="showChapter('wlan')">
         <span class="icon">&#128246;</span>
-        <div><div class="label" id="nav-wlan">WLAN</div><div class="desc" id="nav-wlan-sub">Netzwerk &amp; Passwort</div></div>
+        <div><div class="label" id="nav-wlan">WLAN</div></div>
         <span class="arr">&rsaquo;</span>
       </div>
       <div class="idx-card" onclick="showChapter('infos')">
         <span class="icon">&#128269;</span>
-        <div><div class="label" id="nav-infos">Hausregeln</div><div class="desc" id="nav-infos-sub">Verhalten &amp; Hinweise</div></div>
+        <div><div class="label" id="nav-infos">Hausregeln</div></div>
         <span class="arr">&rsaquo;</span>
       </div>
       <div class="idx-card" onclick="showChapter('abreise')">
         <span class="icon">&#129523;</span>
-        <div><div class="label" id="nav-abreise">Abreise</div><div class="desc" id="nav-abreise-sub">Check-out &amp; Schl&uuml;ssel</div></div>
+        <div><div class="label" id="nav-abreise">Abreise</div></div>
         <span class="arr">&rsaquo;</span>
       </div>
     </div>
@@ -418,18 +418,17 @@
     <button class="chap-back" onclick="goToMainPage()">&#8592; <span id="back-checkin">Zur&#252;ck</span></button>
     <div class="chap-header"><span class="icon">&#128273;</span><h2 id="chap-checkin-title">Check-In (Zugang)</h2></div>
     <div class="card">
-      <h3 id="ch-ci-1">Check-In (Zugang)</h3>
       <div class="row">
         <span class="em">&#128273;</span>
         <div><strong id="ch-ci-2">Schlüsselbox</strong><span class="note" id="ch-ci-3">Die Schlüsselbox befindet sich außen an der Hauswand. Bitte geben Sie den Code ein und nehmen Sie den Schlüssel für die Haustür heraus.</span></div>
       </div>
-      <div class="photo">
-        <img src="schluesselbox.png" alt="Schluesselbox" style="max-height: 100%; object-fit: contain;">
-        <span id="ch-ci-4">Schlüsselbox an der Hauswand</span>
-      </div>
       <div class="row" style="margin-top: 14px;">
         <span class="em">&#128694;</span>
         <div><strong id="ch-ci-5">Weg zur Unterkunft</strong><span class="note" id="ch-ci-6">1. Code in die untere Schlüsselbox eingeben<br>2. Schlüssel entnehmen. Damit können Sie die Haustür und die Wohnungstür aufschließen<br>3. Die Wohnung befindet sich im Untergeschoss auf der linken Seite</span></div>
+      </div>
+      <div class="photo">
+        <img src="schluesselbox.png" alt="Schluesselbox" style="max-height: 100%; object-fit: contain;">
+        <span id="ch-ci-4">Schlüsselbox an der Hauswand</span>
       </div>
     </div>
   </div>
